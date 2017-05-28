@@ -1,0 +1,19 @@
+#triviaGame {
+	background-color: #3B5998;
+	width: 1em;
+
+}
+
+
+#start {
+	
+}
+
+#game {
+	display: none;
+
+}
+
+#finish {
+	display: none;
+}

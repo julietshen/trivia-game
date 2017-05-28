@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="start">
+        <button id="startButton">Start</button>
+    </div>
+    <div id="game">
+        <div id="timer">
+            Time left: <span id="time"></span>
+        </div>
+        <p id="questions">
+            1. Dijon mustard originated in the city of Dijon, located in what country?
+            <ul class="answers" id="question1">
+                <input type="radio" name="choice"> a. Germany
+                <input type="radio" name="choice"> b. France
+                <input type="radio" name="choice"> c. England
+                <input type="radio" name="choice"> d. Italy
+            </ul>
+        </p>
+        <p id="questions">
+            2. In what year did McDonald's start serving breakfast with the introduction of the Egg McMuffin?
+            <ul class="answers" id="question2">
+                <input type="radio" name="choice2"> a. 1970
+                <input type="radio" name="choice2"> b. 1975
+                <input type="radio" name="choice2"> c. 1976
+                <input type="radio" name="choice2"> d. 1972
+            </ul>
+        </p>
+        <p id="questions">
+            3. Pupusas, handmade thick stuffed corn tortillas, are a traditional dish from what country?
+            <ul class="answers" id="question3">
+                <input type="radio" name="choice3"> a. Argentina
+                <input type="radio" name="choice3"> b. Brazil
+                <input type="radio" name="choice3"> c. El Salvador
+                <input type="radio" name="choice3"> d. Mexico
+            </ul>
+        </p>
+        <p id="questions">
+            4. What popular soda beverage was originally developed as a mixer for whiskey?
+            <ul class="answers" id="question4">
+                <input type="radio" name="choice4"> a. Coca Cola
+                <input type="radio" name="choice4"> b. Mountain Dew
+                <input type="radio" name="choice4"> c. Sprite
+                <input type="radio" name="choice4"> d. Fanta
+            </ul>
+        </p>
+    </div>
+    <div id="finish">
+        <h2>Correctly answered: <span id="correct"></span>
+    <br>Incorrectly answered: <span id="wrong"></span>
+    <br>Unanswered questions: <span id="unanswered"></span>
+    </h2>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+</body>
+
+</html>
